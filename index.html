@@ -236,17 +236,17 @@ p{margin:0}
 .pillars .in{position:relative}
 .pillars .sec-head h2{color:var(--cream)}
 .pillars .sec-head .sub{color:var(--lime)}
-.p-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;align-items:start}
+.p-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px;align-items:start}
 .pc{position:relative;padding:56px 46px 58px;color:var(--cream);isolation:isolate;transition:transform .5s cubic-bezier(.3,1.5,.5,1)}
-.pc::before{content:"";position:absolute;inset:0;border-radius:44px;background:var(--pcb);filter:url(#cloud);z-index:-1}
-.pc:nth-child(1){--pcb:var(--red);transform:rotate(-2deg)}
-.pc:nth-child(2){--pcb:var(--red2);transform:rotate(1.5deg) translateY(50px)}
-.pc:nth-child(3){--pcb:var(--rust);transform:rotate(-1deg) translateY(10px)}
+.pc::before{content:"";position:absolute;inset:0;background:var(--pcb);border-radius:var(--blob);box-shadow:0 24px 50px rgba(0,0,0,.28);z-index:-1}
+.pc:nth-child(1){--pcb:var(--lime);--pcf:var(--ink);--chipb:var(--ink);--chipf:var(--lime);--qm:var(--red);--blob:58px 40px 64px 36px/44px 60px 38px 66px;color:var(--ink);transform:rotate(-2deg)}
+.pc:nth-child(2){--pcb:var(--red);--pcf:var(--cream);--chipb:var(--ink);--chipf:var(--lime);--qm:var(--lime);--blob:40px 66px 42px 60px/62px 40px 64px 42px;transform:rotate(1.5deg) translateY(50px)}
+.pc:nth-child(3){--pcb:var(--cream);--pcf:var(--ink);--chipb:var(--maroon);--chipf:var(--cream);--qm:var(--red2);--blob:64px 44px 58px 40px/40px 66px 44px 60px;color:var(--ink);transform:rotate(-1deg) translateY(10px)}
 .pc:hover{transform:rotate(0) translateY(-6px)}
 .pc .k{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}
-.pc .k span{font-family:var(--display);font-size:13px;letter-spacing:.08em;background:var(--ink);color:var(--lime);padding:6px 10px 4px;border-radius:8px}
-.pc .k b{font-family:var(--display);font-size:56px;line-height:.5;color:var(--lime);font-weight:400;height:24px}
-.pc h3{font-size:clamp(28px,2.8vw,40px);margin-bottom:14px}
+.pc .k span{font-family:var(--display);font-size:15px;letter-spacing:.06em;background:var(--chipb);color:var(--chipf);padding:7px 12px 5px;border-radius:9px}
+.pc .k b{font-family:var(--display);font-size:56px;line-height:.5;color:var(--qm);font-weight:400;height:24px}
+.pc h3{font-size:clamp(26px,2.4vw,36px);margin-bottom:14px}
 .pc p{font-size:17px;line-height:1.45}
 
 /* ---------- curriculum ---------- */
@@ -585,9 +585,9 @@ p{margin:0}
       <p class="sub">Content is how you share it.</p>
     </div>
     <div class="p-grid">
-      <article class="pc rv"><div class="k"><span>PILLAR 01</span><b aria-hidden="true">“</b></div><h3>Fundamentals</h3><p>Audience psychology, narrative architecture, and attention distribution.</p></article>
-      <article class="pc rv"><div class="k"><span>PILLAR 02</span><b aria-hidden="true">“</b></div><h3>Ideology</h3><p>Create with purpose. Serve a dedicated tribe over empty views and vanity metrics.</p></article>
-      <article class="pc rv"><div class="k"><span>PILLAR 03</span><b aria-hidden="true">“</b></div><h3>Monetisation</h3><p>Build enduring media equity via direct and indirect revenue streams.</p></article>
+      <article class="pc rv"><div class="k"><span>01</span><b aria-hidden="true">“</b></div><h3>Fundamentals</h3><p>Audience psychology, narrative architecture, and attention distribution.</p></article>
+      <article class="pc rv"><div class="k"><span>02</span><b aria-hidden="true">“</b></div><h3>Ideology</h3><p>Create with purpose. Serve a dedicated tribe over empty views and vanity metrics.</p></article>
+      <article class="pc rv"><div class="k"><span>03</span><b aria-hidden="true">“</b></div><h3>Monetisation</h3><p>Build enduring media equity via direct and indirect revenue streams.</p></article>
     </div>
     <div style="display:flex;justify-content:center;margin-top:110px"><a class="btn" href="#apply">Apply for Cohort 01 <svg class="ar" viewBox="0 0 100 100" aria-hidden="true"><use href="#arrow"/></svg></a></div>
   </div>
