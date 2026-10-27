@@ -1,0 +1,74 @@
+{
+  "method": "Local Chrome, fresh browser contexts, reduced motion, full scroll, all images decoded",
+  "photos": 20,
+  "vectors": 4,
+  "responsiveFiles": 219,
+  "longestEdge": 3840,
+  "sourceFilesUnchanged": true,
+  "losslessMastersMatch": true,
+  "checks": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 2
+      },
+      "initialImageBytes": {
+        "before": 1136985,
+        "after": 246974,
+        "reductionPercent": 78.28
+      },
+      "allImageBytes": {
+        "before": 1991918,
+        "after": 1716742,
+        "reductionPercent": 13.81
+      },
+      "layoutDifferences": 0,
+      "brokenImages": 0,
+      "scriptErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 2
+      },
+      "initialImageBytes": {
+        "before": 1488946,
+        "after": 778296,
+        "reductionPercent": 47.73
+      },
+      "allImageBytes": {
+        "before": 1991918,
+        "after": 1856456,
+        "reductionPercent": 6.8
+      },
+      "layoutDifferences": 0,
+      "brokenImages": 0,
+      "scriptErrors": 0,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 3840,
+        "height": 2160,
+        "dpr": 1
+      },
+      "initialImageBytes": {
+        "before": 1725849,
+        "after": 454566,
+        "reductionPercent": 73.66
+      },
+      "allImageBytes": {
+        "before": 1991918,
+        "after": 967048,
+        "reductionPercent": 51.45
+      },
+      "layoutDifferences": 0,
+      "brokenImages": 0,
+      "scriptErrors": 0,
+      "horizontalOverflow": false
+    }
+  ]
+}
