@@ -24,3 +24,9 @@ node tools/images.mjs /absolute/path/to/local-image-library
 ```
 
 `tools/responsive.mjs` applies the responsive markup to the original HTML once. After replacing source photos, regenerate the manifest and update the corresponding markup so its versioned paths match. There is no production build step; image tools and reports are excluded from deployment.
+
+## Generated curriculum interiors
+
+The four 12-week sprint cards use coordinated AI-generated interior concepts inspired by the supplied classroom reference: storytelling workshop, editing and sound lab, production stage, and Demo Day presentation room. They are concepts rather than photographs of actual facilities. The exact built-in image_gen prompts are in `docs/curriculum-generation-prompts.json`.
+
+Native generated PNGs and lossless 3840 × 2560 masters are stored in `../creator-studio-ramanaidu-image-library/sprint-generated/`. Each master is enlarged once from its native 1536 × 1024 source. `tools/curriculum-images.mjs` rebuilds the four responsive image sets and updates only the curriculum card images. AVIF quality 50 is preferred with WebP quality 82 fallback, using the existing lazy loading and caching. `docs/curriculum-image-manifest.json` records provenance, checksums, dimensions and delivery sizes.
