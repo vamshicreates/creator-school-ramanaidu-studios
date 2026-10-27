@@ -1,5 +1,5 @@
 import { createRequire } from 'node:module';
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, stat } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -7,15 +7,21 @@ import { fileURLToPath } from 'node:url';
 const require = createRequire(import.meta.url);
 const sharp = process.env.IMAGE_TOOL_MODULES ? require(path.join(process.env.IMAGE_TOOL_MODULES, 'sharp')) : require('sharp');
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const archive = path.resolve(process.argv[2] || path.join(root, '..', 'creator-studio-ramanaidu-image-library', 'sprint-generated'));
-const scenes = [
-  ['phase1', 'Concept of a warm tiered classroom for storytelling and creator workshops'],
-  ['phase2', 'Concept of a professional video editing and sound learning lab'],
-  ['phase3', 'Concept of a film production training stage with cinema camera and lighting'],
-  ['phase4', 'Concept of a warm presentation room for Demo Day and creator showcases']
-];
+const selection = JSON.parse(await readFile(path.join(root, 'docs/curriculum-source-selection.json'), 'utf8'));
+const archive = path.resolve(process.argv[2] || path.resolve(root, selection.archiveDirectory));
+const scenes = selection.scenes;
 await mkdir(path.join(archive, 'masters-4k'), { recursive: true });
-const manifest = { provenance: 'AI-generated concepts using the supplied classroom mood reference; built-in image_gen', method: 'One Lanczos3 upscale from each native generated source to a lossless 3840px master; responsive AVIF and WebP files downsampled from that master', webQuality: 82, avifQuality: 50, images: [] };
+const manifest = { provenance: selection.provenance, method: 'One Lanczos3 upscale from each native generated source to a lossless 3840px master; responsive AVIF and WebP files downsampled from that master', webQuality: 82, avifQuality: 50, images: [] };
+async function cachedOrEncode(file, pipeline) {
+  try {
+    const metadata = await sharp(path.join(root, file)).metadata();
+    const size = (await stat(path.join(root, file))).size;
+    if (!size || !metadata.width || !metadata.height) throw new Error('Invalid cached image');
+    return { width: metadata.width, height: metadata.height, size };
+  } catch {
+    return pipeline.toFile(path.join(root, file));
+  }
+}
 for (const [name, alt] of scenes) {
   const source = await readFile(path.join(archive, 'sources', `${name}.png`));
   const metadata = await sharp(source).metadata();
@@ -28,10 +34,10 @@ for (const [name, alt] of scenes) {
   const variants = [], avifVariants = [];
   for (const w of [320, 480, 640, 800, 960, 1280, 1600, 1920, 2560, width]) {
     const file = `assets/optimized/curriculum-${name}-${version}-${w}.webp`;
-    const info = await sharp(master).resize({ width: w, kernel: 'lanczos3' }).webp({ quality: 82, effort: 6 }).toFile(path.join(root, file));
+    const info = await cachedOrEncode(file, sharp(master).resize({ width: w, kernel: 'lanczos3' }).webp({ quality: 82, effort: 6 }));
     variants.push({ file, width: info.width, height: info.height, bytes: info.size });
     const avifFile = file.replace(/\.webp$/, '.avif');
-    const avifInfo = await sharp(master).resize({ width: w, kernel: 'lanczos3' }).avif({ quality: 50, effort: 4 }).toFile(path.join(root, avifFile));
+    const avifInfo = await cachedOrEncode(avifFile, sharp(master).resize({ width: w, kernel: 'lanczos3' }).avif({ quality: 50, effort: 4 }));
     avifVariants.push({ file: avifFile, width: avifInfo.width, height: avifInfo.height, bytes: avifInfo.size });
   }
   manifest.images.push({ name, alt, sha256, sourceWidth: metadata.width, sourceHeight: metadata.height, width, height, variants, avifVariants });
@@ -44,7 +50,8 @@ const section = html.slice(start, end).replace(/<picture>.*?<\/picture>|<img\b[^
   const image = manifest.images[count++];
   if (!image) throw new Error('Unexpected curriculum image');
   const fallback = image.variants.find(v => v.width === 640);
-  const sizes = '(max-width: 1080px) calc(100vw - 88px), 554px';
+  const factor = Math.max(1, image.width / image.height / 1.5);
+  const sizes = factor > 1.01 ? `(max-width: 1080px) calc((100vw - 88px) * ${factor.toFixed(4)}), ${Math.ceil(554 * factor)}px` : '(max-width: 1080px) calc(100vw - 88px), 554px';
   return `<picture><source type="image/avif" srcset="${image.avifVariants.map(v => `${v.file} ${v.width}w`).join(', ')}" sizes="${sizes}"><img src="${fallback.file}" srcset="${image.variants.map(v => `${v.file} ${v.width}w`).join(', ')}" sizes="${sizes}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async" alt="${image.alt}"></picture>`;
 });
 if (count !== 4) throw new Error(`Expected four curriculum images, found ${count}`);

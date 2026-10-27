@@ -1,272 +1,272 @@
 {
-  "provenance": "AI-generated concepts using the supplied classroom mood reference; built-in image_gen",
+  "provenance": "Three AI-generated classroom concepts edited with Creator Studios by Rama Naidu wall branding, plus the earlier generated production-stage concept; built-in image_gen",
   "method": "One Lanczos3 upscale from each native generated source to a lossless 3840px master; responsive AVIF and WebP files downsampled from that master",
   "webQuality": 82,
   "avifQuality": 50,
   "images": [
     {
       "name": "phase1",
-      "alt": "Concept of a warm tiered classroom for storytelling and creator workshops",
-      "sha256": "4ae9dc63ea6b07371ee361ba0e657ca8e52201d8d05c312f10ebe05c91efaa3d",
+      "alt": "Concept of creators collaborating in a classroom branded Creator Studios by Rama Naidu",
+      "sha256": "d28a9ae598f3287532caea4d955177ee49f6eac4b686a14e8c76b30df002f645",
       "sourceWidth": 1536,
       "sourceHeight": 1024,
       "width": 3840,
       "height": 2560,
       "variants": [
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-320.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-320.webp",
           "width": 320,
           "height": 213,
-          "bytes": 18402
+          "bytes": 18030
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-480.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-480.webp",
           "width": 480,
           "height": 320,
-          "bytes": 35476
+          "bytes": 34040
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-640.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-640.webp",
           "width": 640,
           "height": 427,
-          "bytes": 58310
+          "bytes": 53154
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-800.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-800.webp",
           "width": 800,
           "height": 533,
-          "bytes": 85448
+          "bytes": 74816
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-960.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-960.webp",
           "width": 960,
           "height": 640,
-          "bytes": 115104
+          "bytes": 96718
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1280.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1280.webp",
           "width": 1280,
           "height": 853,
-          "bytes": 180748
+          "bytes": 143412
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1600.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1600.webp",
           "width": 1600,
           "height": 1067,
-          "bytes": 246516
+          "bytes": 188762
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1920.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1920.webp",
           "width": 1920,
           "height": 1280,
-          "bytes": 306794
+          "bytes": 229572
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-2560.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-2560.webp",
           "width": 2560,
           "height": 1707,
-          "bytes": 433262
+          "bytes": 314420
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-3840.webp",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-3840.webp",
           "width": 3840,
           "height": 2560,
-          "bytes": 688850
+          "bytes": 492626
         }
       ],
       "avifVariants": [
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-320.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-320.avif",
           "width": 320,
           "height": 213,
-          "bytes": 8444
+          "bytes": 8946
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-480.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-480.avif",
           "width": 480,
           "height": 320,
-          "bytes": 16320
+          "bytes": 16838
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-640.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-640.avif",
           "width": 640,
           "height": 427,
-          "bytes": 26689
+          "bytes": 26469
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-800.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-800.avif",
           "width": 800,
           "height": 533,
-          "bytes": 38908
+          "bytes": 37015
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-960.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-960.avif",
           "width": 960,
           "height": 640,
-          "bytes": 51040
+          "bytes": 48016
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1280.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1280.avif",
           "width": 1280,
           "height": 853,
-          "bytes": 82437
+          "bytes": 72435
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1600.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1600.avif",
           "width": 1600,
           "height": 1067,
-          "bytes": 113539
+          "bytes": 97049
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-1920.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-1920.avif",
           "width": 1920,
           "height": 1280,
-          "bytes": 143413
+          "bytes": 120323
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-2560.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-2560.avif",
           "width": 2560,
           "height": 1707,
-          "bytes": 206982
+          "bytes": 167793
         },
         {
-          "file": "assets/optimized/curriculum-phase1-e6d6afbcbe70-3840.avif",
+          "file": "assets/optimized/curriculum-phase1-ed8d8775f46d-3840.avif",
           "width": 3840,
           "height": 2560,
-          "bytes": 335209
+          "bytes": 264699
         }
       ]
     },
     {
       "name": "phase2",
-      "alt": "Concept of a professional video editing and sound learning lab",
-      "sha256": "badc7bc6dc9bf75a43df960d0e59490293bf6a82618057654b094d1cbd6f20b9",
+      "alt": "Concept of a creator workshop with filming equipment and Creator Studios by Rama Naidu wall branding",
+      "sha256": "675f74a08a8ccbb87ca0a38f52032ca21a2187b5d5ddeefa52825dd26b57f6b5",
       "sourceWidth": 1536,
       "sourceHeight": 1024,
       "width": 3840,
       "height": 2560,
       "variants": [
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-320.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-320.webp",
           "width": 320,
           "height": 213,
-          "bytes": 17332
+          "bytes": 18664
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-480.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-480.webp",
           "width": 480,
           "height": 320,
-          "bytes": 33522
+          "bytes": 36762
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-640.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-640.webp",
           "width": 640,
           "height": 427,
-          "bytes": 54230
+          "bytes": 56438
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-800.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-800.webp",
           "width": 800,
           "height": 533,
-          "bytes": 78332
+          "bytes": 77394
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-960.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-960.webp",
           "width": 960,
           "height": 640,
-          "bytes": 104436
+          "bytes": 98890
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1280.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1280.webp",
           "width": 1280,
           "height": 853,
-          "bytes": 165470
+          "bytes": 143534
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1600.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1600.webp",
           "width": 1600,
           "height": 1067,
-          "bytes": 220674
+          "bytes": 187160
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1920.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1920.webp",
           "width": 1920,
           "height": 1280,
-          "bytes": 277880
+          "bytes": 226032
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-2560.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-2560.webp",
           "width": 2560,
           "height": 1707,
-          "bytes": 389260
+          "bytes": 307092
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-3840.webp",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-3840.webp",
           "width": 3840,
           "height": 2560,
-          "bytes": 619068
+          "bytes": 479388
         }
       ],
       "avifVariants": [
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-320.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-320.avif",
           "width": 320,
           "height": 213,
-          "bytes": 8150
+          "bytes": 9647
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-480.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-480.avif",
           "width": 480,
           "height": 320,
-          "bytes": 15628
+          "bytes": 17817
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-640.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-640.avif",
           "width": 640,
           "height": 427,
-          "bytes": 25085
+          "bytes": 27731
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-800.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-800.avif",
           "width": 800,
           "height": 533,
-          "bytes": 35905
+          "bytes": 38441
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-960.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-960.avif",
           "width": 960,
           "height": 640,
-          "bytes": 47696
+          "bytes": 49860
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1280.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1280.avif",
           "width": 1280,
           "height": 853,
-          "bytes": 74610
+          "bytes": 73275
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1600.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1600.avif",
           "width": 1600,
           "height": 1067,
-          "bytes": 102375
+          "bytes": 95658
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-1920.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-1920.avif",
           "width": 1920,
           "height": 1280,
-          "bytes": 130307
+          "bytes": 118723
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-2560.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-2560.avif",
           "width": 2560,
           "height": 1707,
-          "bytes": 188119
+          "bytes": 161916
         },
         {
-          "file": "assets/optimized/curriculum-phase2-c04b05628379-3840.avif",
+          "file": "assets/optimized/curriculum-phase2-515dec318b21-3840.avif",
           "width": 3840,
           "height": 2560,
-          "bytes": 310035
+          "bytes": 250889
         }
       ]
     },
@@ -405,134 +405,134 @@
     },
     {
       "name": "phase4",
-      "alt": "Concept of a warm presentation room for Demo Day and creator showcases",
-      "sha256": "5218b5fbb82930bc63cbdb62d2c64c13642549611ec7525977e575c5987de953",
-      "sourceWidth": 1536,
-      "sourceHeight": 1024,
+      "alt": "Concept of a casual creator showcase classroom branded Creator Studios by Rama Naidu",
+      "sha256": "0c52f920d932de349a82af77e7d6639e16c3af77fb2e9a7b70c44fbc7be3b196",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
       "width": 3840,
-      "height": 2560,
+      "height": 2161,
       "variants": [
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-320.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-320.webp",
           "width": 320,
-          "height": 213,
-          "bytes": 16192
+          "height": 180,
+          "bytes": 16106
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-480.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-480.webp",
           "width": 480,
-          "height": 320,
-          "bytes": 30508
+          "height": 270,
+          "bytes": 30946
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-640.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-640.webp",
           "width": 640,
-          "height": 427,
-          "bytes": 48948
+          "height": 360,
+          "bytes": 49228
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-800.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-800.webp",
           "width": 800,
-          "height": 533,
-          "bytes": 71532
+          "height": 450,
+          "bytes": 69460
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-960.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-960.webp",
           "width": 960,
-          "height": 640,
-          "bytes": 95050
+          "height": 540,
+          "bytes": 90588
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1280.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1280.webp",
           "width": 1280,
-          "height": 853,
-          "bytes": 153642
+          "height": 720,
+          "bytes": 135122
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1600.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1600.webp",
           "width": 1600,
-          "height": 1067,
-          "bytes": 207154
+          "height": 900,
+          "bytes": 175696
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1920.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1920.webp",
           "width": 1920,
-          "height": 1280,
-          "bytes": 262988
+          "height": 1081,
+          "bytes": 214848
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-2560.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-2560.webp",
           "width": 2560,
-          "height": 1707,
-          "bytes": 380818
+          "height": 1441,
+          "bytes": 294254
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-3840.webp",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-3840.webp",
           "width": 3840,
-          "height": 2560,
-          "bytes": 622258
+          "height": 2161,
+          "bytes": 452114
         }
       ],
       "avifVariants": [
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-320.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-320.avif",
           "width": 320,
-          "height": 213,
-          "bytes": 7210
+          "height": 180,
+          "bytes": 8047
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-480.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-480.avif",
           "width": 480,
-          "height": 320,
-          "bytes": 13756
+          "height": 270,
+          "bytes": 15400
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-640.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-640.avif",
           "width": 640,
-          "height": 427,
-          "bytes": 22324
+          "height": 360,
+          "bytes": 24282
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-800.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-800.avif",
           "width": 800,
-          "height": 533,
-          "bytes": 32492
+          "height": 450,
+          "bytes": 34502
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-960.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-960.avif",
           "width": 960,
-          "height": 640,
-          "bytes": 43984
+          "height": 540,
+          "bytes": 45052
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1280.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1280.avif",
           "width": 1280,
-          "height": 853,
-          "bytes": 72031
+          "height": 720,
+          "bytes": 66918
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1600.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1600.avif",
           "width": 1600,
-          "height": 1067,
-          "bytes": 101871
+          "height": 900,
+          "bytes": 88346
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-1920.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-1920.avif",
           "width": 1920,
-          "height": 1280,
-          "bytes": 131022
+          "height": 1081,
+          "bytes": 109044
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-2560.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-2560.avif",
           "width": 2560,
-          "height": 1707,
-          "bytes": 193273
+          "height": 1441,
+          "bytes": 149553
         },
         {
-          "file": "assets/optimized/curriculum-phase4-2b82aea31dfc-3840.avif",
+          "file": "assets/optimized/curriculum-phase4-f0fc00995a4f-3840.avif",
           "width": 3840,
-          "height": 2560,
-          "bytes": 322680
+          "height": 2161,
+          "bytes": 232199
         }
       ]
     }
