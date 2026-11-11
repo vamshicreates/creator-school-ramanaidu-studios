@@ -732,6 +732,12 @@ p{margin:0}
 .polaroid p{font-size:24px;line-height:1.1}
 .fm figcaption b{font-size:28px;line-height:1.1}
 /* Explore cards (home) */
+.hs{margin:34px 0 0;display:flex;flex-direction:column;align-items:center;gap:14px;animation:fadeUp .8s ease 2.1s both}
+.hsp{width:clamp(180px,22vw,260px);aspect-ratio:4/5;border:4px solid var(--ink);border-radius:22px;overflow:hidden;background:var(--cream);box-shadow:8px 8px 0 var(--ink);transform:rotate(-2deg)}
+.hsp img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.hs figcaption{display:flex;flex-direction:column;gap:2px;font-family:var(--body,inherit)}
+.hs figcaption b{font-family:var(--display);text-transform:uppercase;font-size:clamp(16px,1.6vw,20px);letter-spacing:.02em}
+.hs figcaption span{font-size:14px;opacity:.8}
 .explore{padding-block:clamp(24px,4vw,56px) clamp(56px,7vw,100px)}
 .xgrid{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
 .xc{display:flex;flex-direction:column;gap:10px;height:100%;text-decoration:none;color:var(--ink);background:var(--paper);border:1.5px solid rgba(22,22,22,.1);border-radius:24px;padding:24px 24px 20px;box-shadow:0 14px 30px rgba(22,22,22,.07);transition:transform .35s cubic-bezier(.3,1.4,.5,1),box-shadow .35s}
@@ -795,6 +801,7 @@ body.sub main{padding-top:clamp(16px,3vw,40px)}
       <span class="ln"><span><span class="scr">Ramanaidu</span> Studios.</span></span>
     </h1>
     <p class="og">We train you to become a <span class="tag">leading</span> content creator.</p>
+    <figure class="hs"><div class="hsp"><img src="assets/optimized/suresh-2da117d49beb-640.webp" srcset="assets/optimized/suresh-2da117d49beb-160.webp 160w, assets/optimized/suresh-2da117d49beb-320.webp 320w, assets/optimized/suresh-2da117d49beb-480.webp 480w, assets/optimized/suresh-2da117d49beb-640.webp 640w, assets/optimized/suresh-2da117d49beb-800.webp 800w, assets/optimized/suresh-2da117d49beb-960.webp 960w, assets/optimized/suresh-2da117d49beb-1280.webp 1280w, assets/optimized/suresh-2da117d49beb-1600.webp 1600w, assets/optimized/suresh-2da117d49beb-1920.webp 1920w, assets/optimized/suresh-2da117d49beb-2560.webp 2560w, assets/optimized/suresh-2da117d49beb-3013.webp 3013w" sizes="(max-width: 640px) 70vw, 340px" width="3013" height="3840" loading="eager" decoding="async" alt="D. Suresh Babu, Managing Director, Suresh Productions and Ramanaidu Studios"></div><figcaption><b>D. Suresh Babu</b><span>Managing Director, Suresh Productions &amp; Ramanaidu Studios</span></figcaption></figure>
   </div>
   <div class="reel" aria-label="Moments from the program">
     <div class="track" id="reel">
@@ -814,26 +821,6 @@ body.sub main{padding-top:clamp(16px,3vw,40px)}
       <a class="btn" href="/admissions#apply">Apply for Cohort 01 <svg class="ar" viewBox="0 0 100 100" aria-hidden="true"><use href="#arrow"/></svg></a>
       <a class="btn ghost" href="/syllabus">See the syllabus</a>
     </div>
-  </div>
-</section>
-
-<!-- EXPLORE -->
-<section class="explore" id="explore" aria-labelledby="exp-h">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="eyebrow">Explore Creator School</span>
-      <h2 id="exp-h">Everything you need to <span class="tag">decide.</span></h2>
-      <p class="sub">Choose a topic to read more.</p>
-    </div>
-    <ul class="xgrid">
-      <li class="rv"><a class="xc" href="/why-us"><span class="k">01</span><h3>Why Ramanaidu Studios</h3><p>Sixty years of cinema, now a school for creators.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/why-create"><span class="k">02</span><h3>Why become a creator</h3><p>Star fame, brand income and creative independence.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/syllabus"><span class="k">03</span><h3>The syllabus</h3><p>Six modules, from content fundamentals to building revenue streams.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/creators"><span class="k">04</span><h3>Creators who made it big</h3><p>Telugu, Hindi and international creators who started at zero.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/mentors"><span class="k">05</span><h3>Mentors and the lot</h3><p>Meet your mentors and the working studio where you will create.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/admissions"><span class="k">06</span><h3>Admissions</h3><p>Apply first, pay only if selected. Cohort 01 begins 4 December 2026.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-      <li class="rv"><a class="xc" href="/faqs"><span class="k">07</span><h3>FAQs</h3><p>Clear answers to the questions applicants ask most.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
-    </ul>
   </div>
 </section>
 
@@ -1441,6 +1428,21 @@ body.sub main{padding-top:clamp(16px,3vw,40px)}
 </section>
 
 <!-- FINAL CTA -->
+<!-- EXPLORE -->
+<section class="explore" id="explore" aria-labelledby="exp-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Explore Creator School</span>
+      <h2 id="exp-h">Go <span class="tag">deeper.</span></h2>
+      <p class="sub">Two more things to look at before you apply.</p>
+    </div>
+    <ul class="xgrid">
+      <li class="rv"><a class="xc" href="/syllabus"><span class="k">01</span><h3>The syllabus</h3><p>Six modules, from content fundamentals to building revenue streams.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
+      <li class="rv"><a class="xc" href="/creators"><span class="k">02</span><h3>Creators who made it big</h3><p>Telugu, Hindi and international creators who started at zero.</p><span class="go">Explore <span aria-hidden="true">→</span></span></a></li>
+    </ul>
+  </div>
+</section>
+
 <section class="final" aria-labelledby="fin-h">
   <svg class="cloudtop" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 90V60c40 0 50-40 100-40s60 30 100 30 50-45 110-45 70 40 120 40 60-30 110-30 60 35 110 35 55-50 120-50 70 45 120 45 50-25 100-25 60 30 110 30 60-40 120-40 50 30 100 30 50-20 100-20 40 20 50 20V90Z"/></svg>
   <div class="fl" style="left:7%;top:18%;width:clamp(56px,7vw,96px);--r:-10deg" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M98.5 50.0L98.3 51.3L97.8 52.5L96.9 53.7L95.8 54.8L94.6 55.9L93.4 56.9L92.2 57.8L91.2 58.8L90.5 59.7L90.1 60.7L90.0 61.8L90.1 63.0L90.5 64.3L91.0 65.7L91.6 67.2L92.1 68.7L92.5 70.3L92.6 71.7L92.5 73.1L92.0 74.2L91.2 75.3L90.1 76.1L88.8 76.7L87.3 77.1L85.7 77.4L84.1 77.6L82.7 77.9L81.3 78.2L80.2 78.7L79.3 79.3L78.7 80.2L78.2 81.3L77.9 82.7L77.6 84.1L77.4 85.7L77.1 87.3L76.7 88.8L76.1 90.1L75.3 91.2L74.2 92.0L73.1 92.5L71.7 92.6L70.3 92.5L68.7 92.1L67.2 91.6L65.7 91.0L64.3 90.5L63.0 90.1L61.8 90.0L60.7 90.1L59.7 90.5L58.8 91.2L57.8 92.2L56.9 93.4L55.9 94.6L54.8 95.8L53.7 96.9L52.5 97.8L51.3 98.3L50.0 98.5L48.7 98.3L47.5 97.8L46.3 96.9L45.2 95.8L44.1 94.6L43.1 93.4L42.2 92.2L41.2 91.2L40.3 90.5L39.3 90.1L38.2 90.0L37.0 90.1L35.7 90.5L34.3 91.0L32.8 91.6L31.3 92.1L29.7 92.5L28.3 92.6L26.9 92.5L25.8 92.0L24.7 91.2L23.9 90.1L23.3 88.8L22.9 87.3L22.6 85.7L22.4 84.1L22.1 82.7L21.8 81.3L21.3 80.2L20.7 79.3L19.8 78.7L18.7 78.2L17.3 77.9L15.9 77.6L14.3 77.4L12.7 77.1L11.2 76.7L9.9 76.1L8.8 75.3L8.0 74.2L7.5 73.1L7.4 71.7L7.5 70.3L7.9 68.7L8.4 67.2L9.0 65.7L9.5 64.3L9.9 63.0L10.0 61.8L9.9 60.7L9.5 59.7L8.8 58.8L7.8 57.8L6.6 56.9L5.4 55.9L4.2 54.8L3.1 53.7L2.2 52.5L1.7 51.3L1.5 50.0L1.7 48.7L2.2 47.5L3.1 46.3L4.2 45.2L5.4 44.1L6.6 43.1L7.8 42.2L8.8 41.2L9.5 40.3L9.9 39.3L10.0 38.2L9.9 37.0L9.5 35.7L9.0 34.3L8.4 32.8L7.9 31.3L7.5 29.7L7.4 28.3L7.5 26.9L8.0 25.8L8.8 24.7L9.9 23.9L11.2 23.3L12.7 22.9L14.3 22.6L15.9 22.4L17.3 22.1L18.7 21.8L19.8 21.3L20.7 20.7L21.3 19.8L21.8 18.7L22.1 17.3L22.4 15.9L22.6 14.3L22.9 12.7L23.3 11.2L23.9 9.9L24.7 8.8L25.7 8.0L26.9 7.5L28.3 7.4L29.7 7.5L31.3 7.9L32.8 8.4L34.3 9.0L35.7 9.5L37.0 9.9L38.2 10.0L39.3 9.9L40.3 9.5L41.2 8.8L42.2 7.8L43.1 6.6L44.1 5.4L45.2 4.2L46.3 3.1L47.5 2.2L48.7 1.7L50.0 1.5L51.3 1.7L52.5 2.2L53.7 3.1L54.8 4.2L55.9 5.4L56.9 6.6L57.8 7.8L58.8 8.8L59.7 9.5L60.7 9.9L61.8 10.0L63.0 9.9L64.3 9.5L65.7 9.0L67.2 8.4L68.7 7.9L70.3 7.5L71.7 7.4L73.1 7.5L74.2 8.0L75.3 8.8L76.1 9.9L76.7 11.2L77.1 12.7L77.4 14.3L77.6 15.9L77.9 17.3L78.2 18.7L78.7 19.8L79.3 20.7L80.2 21.3L81.3 21.8L82.7 22.1L84.1 22.4L85.7 22.6L87.3 22.9L88.8 23.3L90.1 23.9L91.2 24.7L92.0 25.8L92.5 26.9L92.6 28.3L92.5 29.7L92.1 31.3L91.6 32.8L91.0 34.3L90.5 35.7L90.1 37.0L90.0 38.2L90.1 39.3L90.5 40.3L91.2 41.2L92.2 42.2L93.4 43.1L94.6 44.1L95.8 45.2L96.9 46.3L97.8 47.5L98.3 48.7Z" fill="#C8FF2E" stroke="#fff" stroke-width="6" paint-order="stroke"/><path d="M40 33v34l28-17z" fill="#161616"/></svg></div>
@@ -1570,7 +1572,7 @@ body.sub main{padding-top:clamp(16px,3vw,40px)}
 /* Page router: one section group per page, clean URLs, no framework */
 (function(){
   var PAGES={
-    '/':{title:'Creator School at Ramanaidu Studios, Hyderabad',secs:['.hero','#explore']},
+    '/':{title:'Creator School at Ramanaidu Studios, Hyderabad',secs:['.hero','#legacy','#suresh','#advantages','#why','#join','#orange','#mentors','#lot','#admissions','#apply','#faq','#explore']},
     '/why-us':{title:'Why Ramanaidu Studios | Creator School',secs:['#legacy','#suresh','#advantages']},
     '/why-create':{title:'Why become a creator | Creator School',secs:['#why','#join','#orange']},
     '/syllabus':{title:'Syllabus | Creator School',secs:['#learn','#curriculum','#program']},
