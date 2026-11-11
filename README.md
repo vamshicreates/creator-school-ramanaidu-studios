@@ -30,3 +30,13 @@ node tools/images.mjs /absolute/path/to/local-image-library
 The four 12-week sprint cards use three relaxed classroom concepts with the wall name “Creator Studios by Rama Naidu” and the earlier production-stage concept. They are AI-generated concepts rather than photographs of actual facilities. The exact built-in image_gen generation and editing prompts are in `docs/curriculum-generation-prompts.json`.
 
 Native PNGs and lossless masters with a 3840-pixel longest edge are stored in `../creator-studio-ramanaidu-image-library/sprint-rama-naidu/`. Each master is enlarged once from its native source. `docs/curriculum-source-selection.json` records the current source folder and image descriptions. `tools/curriculum-images.mjs` rebuilds the responsive image sets and updates only the curriculum card images, reusing existing versioned outputs when available. AVIF quality 50 is preferred with WebP quality 82 fallback, using the existing lazy loading and caching. `docs/curriculum-image-manifest.json` records provenance, checksums, dimensions and delivery sizes.
+
+## Photo and video slots
+
+Some new sections have placeholders until the real media is supplied:
+
+- **Creators who made it big** (`#creators`): each card's photo area is a `<div class="ph" data-photo="">`. Put an image in `assets/creators/` and set its path, e.g. `data-photo="assets/creators/mrbeast.jpg"`. Until then the card shows initials.
+- **Orange economy** (`#orange`): the portrait frame uses the same `data-photo` attribute for the Nirmala Sitharaman photo.
+- **Why become a creator** (`#why`): set `data-youtube="VIDEO_ID"` or `data-mp4="assets/video/why-create.mp4"` on `#whyVideo`. With neither set, it shows "Video dropping soon".
+
+Creator figures are third-party estimates (Forbes Top Creators 2025, exchange4media, Celebrity Net Worth, NetWorthSpot) gathered in November 2026; refresh them before major launches.
